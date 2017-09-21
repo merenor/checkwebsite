@@ -10,6 +10,7 @@ from email.mime.text import MIMEText
 
 def main():
 
+    # Pfade zu Configdateien bestimmen
     PFAD = os.path.dirname(os.path.realpath(sys.argv[0]))
     COUNTER = PFAD + '/counter.json'
     CONFIG =  PFAD + '/config.json'
